@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section id="header">
+        <nav>
+            <a href="#" class="logo"><span>Jess</span>Ventures</a>
+            <div class="nav-links" id="navlinks">
+                <ul>
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#popular">POPULAR</a></li>
+                    <li><a href="#testimonials">TESTIMONIALS</a></li>
+                    <li><a href="#cta">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Travel Beyond Boundaries</h1>
+            <p>From the serene beaches of the Maldives to the bustling streets of Tokyo, explore<br>
+                 diverse destinations and create memories that last a lifetime. 
+      </p>
+                <a href="#about" class="btn">Click To Know More</a>
+        </div>
+        </section>
+
+    <section id="about">
+    <h1>What We Offer</h1>
+    <p>"Experience effortless travel arrangements with JessVentures. Discover global flights,<br>
+         diverse accommodations, and tailor-made itineraries—all designed to ensure your trip <br>
+         is nothing short of extraordinary."</p>
+    <div class="row">
+        <div class="about-col">
+            <h3>Flight Booking</h3>
+            <p>Book flights seamlessly to destinations worldwide. We offer competitive prices, <br>
+                flexible options, and personalized recommendations to suit your travel preferences.</p>
+        </div>
+        <div class="about-col">
+            <h3>Hotel Reservations</h3>
+            <p>Explore a wide range of accommodations, from luxury resorts to budget-friendly<br>
+                 hotels. Our platform ensures easy booking and access to exclusive deals.</p>
+        </div>
+        <div class="about-col">
+            <h3>Customized Itineraries</h3>
+            <p>Create personalized travel itineraries tailored to your preferences and interests. Our experts<br>
+                can recommend activities, dining options, and hidden gems to make your trip unforgettable.</p>
+        </div>
+    </div>
+    </section>
+    <section id="popular">
+        <h1>Top Tourist Attractions</h1>
+        <p>Explore the world's top tourist spots, including Santorini's Oia, Kyoto's Fushimi Inari Shrine, <br>
+            and New York City's Central Park. These iconic destinations are must-see highlights for every traveler.</p>
+        <div class="row">
+            <div class="pop-col">
+                <img src="images/europe.png">
+                <div class="layer">
+                    <h3>Europe
+                        Santorini, Greece - Oia</h3>
+                </div>
+
+            </div>
+            <div class="pop-col">
+                <img src="images/japan.png">
+                <div class="layer">
+                    <h3>Asia
+                        Kyoto, Japan - Fushimi Inari Shrine</h3>
+                </div>
+
+            </div>
+            <div class="pop-col">
+                <img src="images/us.png">
+                <div class="layer">
+                    <h3>North America
+                        New York City, USA - Central Park</h3>
+                </div>
+
+            </div>
+        </div>
+
+        <p>Discover some of the world's most sought-after destinations. From the <br>
+            romantic streets of Paris to the ancient marvels of Machu Picchu and <br>
+            the serene beaches of the Maldives, these iconic places promise unforgettable <br>
+            adventures. Start planning your journey to these must-visit spots today!</p>
+    
+    </section>
+    
+
+    
+    <section id="testimonials">
+        <h1>What Our Customers Say</h1>
+        <div class="row">
+            <div class="testimonail-col">
+             <img src="">
+             <div>
+                <p>"The booking process was seamless, and our trip to Santorini was unforgettable.<br>
+                     Thanks toJessVentures, we had the best vacation ever!"</p>
+                   <h3>Emily S., Verified Customer</h3>
+                  
+             </div>
+            </div>
+            <div class="testimonail-col">
+                <img src="">
+                <div>
+                   <p>"I highly recommend JessVentures! Their personalized service and attention
+                    <br> to detail made our trip to Japan truly exceptional."</p>
+                      <h3>Sarah M., Verified Customer</h3>
+            
+    
+                </div>
+               </div>
+    </div>
+
+    </section>
+    <section id="cta">
+        <h1>Book your dream trip from anywhere in the world. Explore and <br>
+            secure your next adventure with ease, no matter where you are.</h1>
+        <a href="mailto:ruffinjessica0207@gmail.com" class="btn">CONTACT US</a>
+    </section>
+    <section class="footer">
+        
+        <div class="icons">
+            <a href="#" target="_blank" ><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#" target="_blank" ><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#" target="_blank" ><ion-icon name="logo-whatsapp"></ion-icon></a>
+            <a href="#" target="_blank" ><ion-icon name="logo-youtube"></ion-icon></a>
+        </div>
+            <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+            </ul>
+                <p class="copyright">JessVentures| All Rights Reserved</p>
+            
+    </section>
+
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js">
+        var navlinks= document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
